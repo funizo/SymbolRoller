@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		0141CB2128C1E28D001CF748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0141CB2028C1E28D001CF748 /* AppDelegate.swift */; };
 		0141CB2328C1E28D001CF748 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0141CB2228C1E28D001CF748 /* SceneDelegate.swift */; };
-		0141CB2528C1E28D001CF748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0141CB2428C1E28D001CF748 /* ViewController.swift */; };
 		0141CB2828C1E28D001CF748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0141CB2628C1E28D001CF748 /* Main.storyboard */; };
 		0141CB2A28C1E28E001CF748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0141CB2928C1E28E001CF748 /* Assets.xcassets */; };
 		0141CB2D28C1E28E001CF748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0141CB2B28C1E28E001CF748 /* LaunchScreen.storyboard */; };
 		0141CB3828C1E28E001CF748 /* SymbolRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0141CB3728C1E28E001CF748 /* SymbolRollerTests.swift */; };
 		0141CB4228C1E28E001CF748 /* SymbolRollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0141CB4128C1E28E001CF748 /* SymbolRollerUITests.swift */; };
 		0141CB4428C1E28E001CF748 /* SymbolRollerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0141CB4328C1E28E001CF748 /* SymbolRollerUITestsLaunchTests.swift */; };
+		0141CB5128C1E403001CF748 /* SymbolRollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0141CB5028C1E403001CF748 /* SymbolRollerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		0141CB1D28C1E28D001CF748 /* SymbolRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymbolRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0141CB2028C1E28D001CF748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0141CB2228C1E28D001CF748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0141CB2428C1E28D001CF748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0141CB2728C1E28D001CF748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0141CB2928C1E28E001CF748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0141CB2C28C1E28E001CF748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		0141CB3D28C1E28E001CF748 /* SymbolRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymbolRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0141CB4128C1E28E001CF748 /* SymbolRollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerUITests.swift; sourceTree = "<group>"; };
 		0141CB4328C1E28E001CF748 /* SymbolRollerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0141CB5028C1E403001CF748 /* SymbolRollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				0141CB2028C1E28D001CF748 /* AppDelegate.swift */,
 				0141CB2228C1E28D001CF748 /* SceneDelegate.swift */,
-				0141CB2428C1E28D001CF748 /* ViewController.swift */,
+				0141CB5028C1E403001CF748 /* SymbolRollerViewController.swift */,
 				0141CB2628C1E28D001CF748 /* Main.storyboard */,
 				0141CB2928C1E28E001CF748 /* Assets.xcassets */,
 				0141CB2B28C1E28E001CF748 /* LaunchScreen.storyboard */,
@@ -258,9 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0141CB2528C1E28D001CF748 /* ViewController.swift in Sources */,
 				0141CB2128C1E28D001CF748 /* AppDelegate.swift in Sources */,
 				0141CB2328C1E28D001CF748 /* SceneDelegate.swift in Sources */,
+				0141CB5128C1E403001CF748 /* SymbolRollerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
