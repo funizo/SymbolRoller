@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0118F95B28C85AAC000C9684 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		0141CB1D28C1E28D001CF748 /* SymbolRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymbolRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0141CB2028C1E28D001CF748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0141CB2228C1E28D001CF748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 		0141CB1428C1E28D001CF748 = {
 			isa = PBXGroup;
 			children = (
+				0118F95B28C85AAC000C9684 /* Readme.md */,
 				0141CB1F28C1E28D001CF748 /* SymbolRoller */,
 				0141CB3628C1E28E001CF748 /* SymbolRollerTests */,
 				0141CB4028C1E28E001CF748 /* SymbolRollerUITests */,
